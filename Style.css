@@ -50,8 +50,8 @@ h1 {
   padding-top: 20%;
 }
 
-.connect {  
-  font-weight: 500; 
+.connect {
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   font-style: normal;
@@ -61,19 +61,18 @@ h1 {
   text-decoration: none;
 }
 
-.socials { 
+.socials {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   max-width: 150px;
   padding-inline-start: 0;
   padding-bottom: 15px;
 }
 
 li {
- list-style: none;
+  list-style: none;
 }
 
 .union {
-color: #6070ff;
+  color: #6070ff;
 }
-  
