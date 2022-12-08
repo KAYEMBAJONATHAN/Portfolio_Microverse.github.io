@@ -145,7 +145,7 @@ li {
   background-size: contain;
   padding-top: 20%;
   background-color: #7f8cff;
-  border-radius: 70px 0px 0px 0px;
+  border-radius: 70px 0% 0% 0%;
 }
 
 .index {
@@ -153,16 +153,16 @@ li {
   padding: 24px;
 }
 
-.button { 
+.button {
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 16px;
   display: flex;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   text-align: center;
   color: #6070ff;
   flex: none;
-  margin: 0px;
+  margin: 0;
   margin-right: 24px;
   padding: 10px 20px;
   background-color: #fff;
