@@ -89,6 +89,7 @@ li {
   gap: 88px;
   padding: 24px;
   background: #e5e5e5;
+  justify-self: start;
 }
 
 .portfolio-work {
@@ -204,11 +205,36 @@ li {
 .language-content {
   display: flex;
   flex-direction: row;
-  background-color: #808080;
+  background-color: #f7f7f9;
   margin-bottom: 10px;
   padding: 10px;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
 }
 
-.bottom-line {
-  border-bottom: solid 2px #000;
+.project-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ padding-left: 10px;
+
+}
+
+.project-icon{
+  align-self: center !important;
+  transform: rotate(270deg);
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  justify-content: right;
+}
+
+.portfolio-about {
+  background-color: #fff;
+  border-radius: 0% 70px 0% 0%;
+  margin: 5px;
+  padding: 15px;
+  gap: 20px;
 }
