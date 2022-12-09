@@ -218,11 +218,10 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
- padding-left: 10px;
-
+  padding-left: 10px;
 }
 
-.project-icon{
+.project-icon {
   align-self: center !important;
   transform: rotate(270deg);
   margin-top: 30px;
