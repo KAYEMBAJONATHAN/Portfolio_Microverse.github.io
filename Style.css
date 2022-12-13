@@ -87,7 +87,6 @@ li {
 #portfolio {
   display: grid;
   gap: 88px;
-  padding: 24px;
   background: #e5e5e5;
   justify-self: start;
 }
@@ -236,4 +235,14 @@ li {
   margin: 5px;
   padding: 15px;
   gap: 20px;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+.about-h1 {
+  padding: 24px;
 }

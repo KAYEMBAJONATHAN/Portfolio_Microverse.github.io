@@ -220,29 +220,29 @@
         <hr>
     </ul>
     </article>
-    
+
     <footer class="header-img">
         <h1 class="index-h1">Contact me</h1>
-        <p>If you have an application you are interested in developing,
+        <p class="text">
+            If you have an application you are interested in developing,
            a feature that you need built or a project that needs coding.
            I'd love to help with it 
         </p>
-        <form class="form-control">
+        <form action="https://formspree.io/f/{form_id}" method="POST">
             <div class="pl-0 form-group">
                 <label for="name"></label>
-                <input class="field-spacing" type="text" name="name" placeholder="name">
+                <input class="field-spacing" type="text" name="name" placeholder="name" required>
             </div>
             <div class="pl-0 form-group">
                 <label for="email"></label>
-                <input class="field-spacing" type="text" name="email" placeholder="email">
+                <input class="field-spacing" type="email" id="email" name="email" placeholder="email" required>
             </div>
             <div class="pl-0 textarea-work">
                 <textarea class="field-spacing" name="" id="" cols="30" rows="10" placeholder="Write something"></textarea>
             </div>
-            <li> <a class="button">Get It Touch</a></li>
+             <button type="submit" class="button">Get It Touch</button>
         </form>
     </footer>
 </section>
-
 </body>
 </html>
