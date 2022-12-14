@@ -121,7 +121,11 @@ li {
 
 .work-technologie {
   display: flex;
-  gap: 24px;
+  gap: 2px;
+}
+#html{
+  float: left;
+
 }
 
 .button-btn {
