@@ -34,6 +34,7 @@
             <a href="" class="connect">
                 Let's Connect
             </a>
+
             <ul class="socials">
                 <li class="icons">
                     <a href="">
@@ -68,7 +69,7 @@
                     <li>Back End Dev</li>
                     <li>2015</li>
                 </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required</p>
                 <ul class="work-technologie">
                     <li>html</li>
                     <li>css</li>
@@ -115,6 +116,7 @@
         </ul>
        <div> 
         <a class="button">See Project</a>
+
     </div>
     </div>
  </article>
@@ -127,6 +129,7 @@
         <li>Back End Dev</li>
         <li>2015</li>
     </ul>
+
     <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
     <ul class="work-technologie">
         <li>html</li>
@@ -217,27 +220,30 @@
         <hr>
     </ul>
     </article>
-    <article class="header-img">
+
+    <footer class="header-img">
         <h1 class="index-h1">Contact me</h1>
-        <p>If you have an application you are interested in developing,
+        <p class="text">
+            If you have an application you are interested in developing,
            a feature that you need built or a project that needs coding.
            I'd love to help with it 
         </p>
-        <form class="form-control">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mlevqqgv" method="post">
+           
             <div class="pl-0 form-group">
-                <label for="name"></label>
-                <input class="field-spacing" type="text" name="name" placeholder="name">
+                <input class="field-spacing" type="text" name="name" id="name" maxlength="30" placeholder="name" required>
             </div>
             <div class="pl-0 form-group">
-                <label for="email"></label>
-                <input class="field-spacing" type="text" name="email" placeholder="email">
+                <input class="field-spacing" type="email" id="email-address" name="_replyto" placeholder="email" required>
             </div>
             <div class="pl-0 textarea-work">
-                <textarea class="field-spacing" name="" id="" cols="30" rows="10" placeholder="Write something"></textarea>
+                <textarea class="field-spacing" name="textarea" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Write something" required>
+                </textarea>
             </div>
-            <li> <a class="button">Get It Touch</a></li>
+        
+             <button type="submit" class="button">Get It Touch</button>
         </form>
-    </article>
+    </footer>
 </section>
 </body>
 </html>
