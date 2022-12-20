@@ -18,16 +18,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello_Microverse <a name="about-project"></a>
+# 📖  Portfolio_Microverse <a name="Portfolio_Microverse">My Portfolio</a>
 
 
 
-**Hello_Microverse**  all about my first web portf 
+**Portfolio_Microverse** This is my portfolio project. 
+Port_Microverse is a mobile and desktop responsive page.
 
 ## 🛠 Built With HTML <a name="For Text"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+HTML5 and CSS3 which are the latest versions were used in building this project.
 
 
 <details>
@@ -42,20 +44,31 @@
 
 ### Key Features <a name="key-features"></a>
 
- 
+- **[key_feature_1]** Portfolio _Microverse built with HTML and CSS.
+- **[key_feature_2]** Responsive mobile design portfolio.
+- **[ket_feature_3]** Responsive desktop design portfolio.
 
 - **feature_HOME-PAGE**
 
+## 🚀 Live Demo <a name="Live Demo"></a>
 
+- [Live Demo Link]()
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
+Get your pc.
+Clone this project to your local machine.
 
 To get a local copy up and running, follow these steps.
 
 
+
+### Prerequisites
+Basic knownledge of computer.
+
+In order to run this project you need:
+Live server.
 
 ### Setup
 
