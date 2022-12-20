@@ -52,7 +52,7 @@ HTML5 and CSS3 which are the latest versions were used in building this project.
 
 ## 🚀 Live Demo <a name="Live Demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://kayembajonathan.github.io/Portfolio_Microverse/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
